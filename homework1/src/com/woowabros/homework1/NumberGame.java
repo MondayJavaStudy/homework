@@ -4,6 +4,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static java.lang.System.out;
+
 public class NumberGame {
 
     private final static int MIN = 0;
@@ -16,7 +18,7 @@ public class NumberGame {
     public void start() {
         inputNumbers();
         inputOne();
-        printAnswer();
+        getAnswer().forEach(answer -> out.println(answer.a + " " + answer.b + " " + answer.c));
     }
 
     public void inputNumbers() {
@@ -35,30 +37,25 @@ public class NumberGame {
         one = Integer.parseInt(scanner.nextLine());
     }
 
-    public void printAnswer() {
+    public List<AnswerValue> getAnswer() {
         List<AnswerValue> answers = new ArrayList<>();
 
-        for (int i = 0; i < numbers.size() - 1; i++) {
-
-            for (int j = i + 1; j < numbers.size() - 1; j++) {
-
+        for (int i = 0; i < numbers.size() - 1; i++)
+            for (int j = i + 1; j < numbers.size() - 1; j++)
                 for (int k = j + 1; k < numbers.size() - 1; k++) {
-                    if (i + j + k == one) {
-                        List<Integer> as = Arrays.asList(i, j, k);
+                    if (numbers.get(i) + numbers.get(j) + numbers.get(k) == one) {
+                        List<Integer> as = Arrays.asList(numbers.get(0), numbers.get(1), numbers.get(2));
                         List<Integer> sorted = as.stream()
                                 .sorted()
                                 .collect(Collectors.toList());
                         answers.add(new AnswerValue(sorted.get(0), sorted.get(1), sorted.get(2)));
                     }
                 }
-            }
-        }
 
-        answers.stream()
+        return answers.stream()
                 .sorted()
                 .distinct()
-                .collect(Collectors.toList())
-                .forEach(answer -> System.out.println(answer.a + " " + answer.b + " " + answer.c));
+                .collect(Collectors.toList());
     }
 
     public static class AnswerValue implements Comparable<AnswerValue> {
