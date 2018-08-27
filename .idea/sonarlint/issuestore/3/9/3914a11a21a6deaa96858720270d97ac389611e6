@@ -1,0 +1,30 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ş±÷©8ç¦Ÿ¶Õ,
+hsquid:S1192"GDefine a constant instead of duplicating this literal "Apple" 10 times.(Çà¥©ıÿÿÿÿ8ç¦Ÿ¶Õ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ù—×‡ûÿÿÿÿ8ç¦Ÿ¶Õ,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(º‹O8ç¦Ÿ¶Õ,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦Ôˆí8ç¦Ÿ¶Õ,
+esquid:UselessImportCheck"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8ç¦Ÿ¶Õ,
+gsquid:S1192"KDefine a constant instead of duplicating this literal "Strawberry" 6 times.(”ìÕ‡8ç¦Ÿ¶Õ,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜©â‘8ç¦Ÿ¶Õ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜”³¦8ç¦Ÿ¶Õ,
+fsquid:UselessImportCheck"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ç¦Ÿ¶Õ,
+csquid:S1192"GDefine a constant instead of duplicating this literal "Banana" 6 times.(Š™ÏÙ8ç¦Ÿ¶Õ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿çœÔÿÿÿÿÿ8ç¦Ÿ¶Õ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ª²¯íúÿÿÿÿ8ç¦Ÿ¶Õ,
+`squid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ç¦Ÿ¶Õ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ù—×‡ûÿÿÿÿ8ç¦Ÿ¶Õ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€‹÷­ùÿÿÿÿ8ç¦Ÿ¶Õ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÀÜ¾œıÿÿÿÿ8ç¦Ÿ¶Õ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(à‹×¿øÿÿÿÿ8ç¦Ÿ¶Õ,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÜŒÑ 8ç¦Ÿ¶Õ,
